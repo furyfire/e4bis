@@ -1,0 +1,42 @@
+Description
+Description 
+
+WeMos D1 Esp-Wroom-02 Motherboard ESP8266 Mini-WiFi NodeMCU Module 18650 Battery OLED 
+
+Model:ESP-8266 
+Color:Black 
+Charging Protection:Yes 
+Discharge Protection:Yes 
+Compatible With Arduino 
+Compatible With NodeMCU 
+Wide Voltage Input Range: 5V~12V 
+Charge Current:500 mA 
+Size(L*W*H):102 x 30 x 20 mm 
+Display Size: 0.96 Inch 
+
+Features: 
+1.One AD inputs. 
+2.Micro USB inputs. 
+3.One programmable LED (D0). 
+4.Integrated 18650 battery charging and discharging system. 
+5.One switch controls whether the 18650 battery is powered or not. 
+6.OLED's SDA and SCL connect to the D1 pin and the D2 pin respectively. 
+7.The five buttons are controlled by FLATH, RSET, D5, D6, and D7 respectively. 
+8.The 5 Digital pins can configure the write/read/interrupt/pwm/I2C/one-wire supported separately. 
+9.Operation and NodeMCU consistent, adding a programmable LED, you can use GPIO16 to control, display 8266 running status and other functions. Integrated OLED and five button, more convenient for development. 
+10.The design concept originates from the open source project NodeMCU, and the development board integrates 18650 charging and discharging systems with charging and discharging protection. At the same time, a OLED and five directional buttons are integrated to facilitate the development. 
+
+Package Included: 
+1 x ESP8266 Mini-WiFi NodeMCU Module With 10 Pins 
+
+Notes: 
+1.Manual measuring, please allow 1 ~ 5 mm error,thank you. 
+2.This product does not contain 18650 batteries.If the battery is in the wrong direction, the charging chip will be destroyed. 
+3.Please do not burn the program during charging. When you burn the program, please unplug the battery and verify the switch is in ON position. 
+4.Recommend the use of 5V 500mA charging charger, more than 5V 1A there will be fever, does not affect the normal work, but in the process of charging charging chip do not touch or carry, the measured charge charging will rise to about 60 degrees with the diode chip, no heat during normal working hours, rest assured to carry. 
+
+
+D7 - DOWN
+D6 - UP
+D5 - OK
+D3 - LEFT

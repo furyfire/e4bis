@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name=".piolibdeps">
+        <df name="Bounce2_ID1106">
+          <df name="examples">
+            <df name="bounce">
+            </df>
+            <df name="bounce2buttons">
+            </df>
+            <df name="change">
+            </df>
+            <df name="duration">
+            </df>
+            <df name="retrigger">
+            </df>
+          </df>
+          <in>Bounce2.cpp</in>
+          <in>Bounce2.h</in>
+        </df>
+        <df name="Brzo I2C_ID335">
+          <df name="examples">
+            <df name="ADT7420">
+            </df>
+            <df name="HTU21D">
+            </df>
+          </df>
+          <in>brzo_i2c.c</in>
+          <in>brzo_i2c.h</in>
+        </df>
+        <df name="ESP8266_SSD1306_ID562">
+          <df name="examples">
+            <df name="SSD1306ClockDemo">
+              <in>images.h</in>
+            </df>
+            <df name="SSD1306DrawingDemo">
+            </df>
+            <df name="SSD1306OTADemo">
+            </df>
+            <df name="SSD1306SimpleDemo">
+              <in>images.h</in>
+            </df>
+            <df name="SSD1306UiDemo">
+              <in>images.h</in>
+            </df>
+          </df>
+          <df name="resources">
+          </df>
+          <in>OLEDDisplay.cpp</in>
+          <in>OLEDDisplay.h</in>
+          <in>OLEDDisplayFonts.h</in>
+          <in>OLEDDisplayUi.cpp</in>
+          <in>OLEDDisplayUi.h</in>
+          <in>SH1106.h</in>
+          <in>SH1106Brzo.h</in>
+          <in>SH1106Spi.h</in>
+          <in>SH1106Wire.h</in>
+          <in>SSD1306.h</in>
+          <in>SSD1306Brzo.h</in>
+          <in>SSD1306Spi.h</in>
+          <in>SSD1306Wire.h</in>
+        </df>
+      </df>
+      <df name="src">
+        <in>main.cpp</in>
+      </df>
+      <in>platformio.ini</in>
+    </df>
+  </logicalFolder>
+  <projectmakefile></projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>3</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
